@@ -1,0 +1,333 @@
+/* :root {
+    --blackshade: #854798;
+    --bluish: #0d0c1d;
+    --purpleshade: #dbbbf5;
+    --lightbgreen: #379683;
+    --bluelight: #0094c6;
+    --darkblue: #45a29e;
+    --greenlight: #36c282;
+    --darkgreen: #61892f;
+} */
+
+/* new color theme  */
+:root{
+    --total_body:white;
+    --footer_header_bg:#1d2f6f;
+    --footer_header_font_color:#fac748;
+    --about_project_font_color:#fac748;
+    --bio_skill_thought_bgcolor:#8390fa;
+    --hero_card_top:#F9E9EC;
+    --hero_card_bottom:#f88dad;
+    --footer_icon_color:#fac748;
+    --hero_card_font_color:#fac748;
+    --project_card_font_color:#8390fa;
+    --footer_topbar_bgcolor:#f9e9ec;;
+    --footer_topbar_contactus_bgcolor:#f88dad;
+    --footer_topbar_font_color:#fac748;
+    
+
+}
+/* new color theme  */
+
+
+/* color scheme class */
+.total_body{
+    background-color:var(--total_body);
+}
+.footer_header_bg{
+    background-color: var(--footer_header_bg)!important;
+}
+.footer_header_font_color{
+    color: var(--footer_header_font_color)!important;
+}
+.about_project_font_color{
+    color: var(--footer_header_bg)!important;
+}
+.bio_skill_thought_bgcolor{
+    background-color: var(--bio_skill_thought_bgcolor)!important;
+}
+/* .hero_card_top{
+    background-color:var(--hero_card_top);
+/* } applied on areA1 */
+/* .hero_card_bottom{
+    background-color:var(--hero_card_bottom);
+/* } applied on area2 */
+.footer_icon_color{
+    color: var(--footer_icon_color);
+    background-color: #8186d5;
+}
+.hero_card_font_color{
+    color: var(--footer_header_bg);
+}
+.project_card_font_color{
+    /* color: var(--footer_header_bg)!important; */
+    background-color: var(--project_card_font_color);
+}
+.footer_topbar_bgcolor{
+    background-color: var(--footer_topbar_bgcolor)!important;
+    border-radius: 20px;
+}  
+
+.footer_topbar_contactus_bgcolor{
+    background-color:var(--footer_topbar_contactus_bgcolor)!important;
+    border-radius: 10px !important;
+}
+.center_all_font{
+    color: var(--footer_header_bg)!important;
+}
+.project_card_border_color{
+    border-color: var(--about_project_font_color);
+}
+
+/* color scheme class ends */
+
+.project_bg_rounded{
+    border-radius: 20px;
+}
+
+
+
+.world_nohed {
+    /* box-shadow: 20px 10px 20px black; */
+}
+
+.logo {
+    /* color: var(--purpleshade)!important; */
+    color:var(--footer_header_font_color) !important;
+    font-family:trajan pro bold ;
+}
+
+/* .logo:hover {
+    color: gold !important;
+} */
+
+/* #home {
+    padding-top: 5%;
+    padding-bottom: 5%;
+} */
+
+.card_hello {
+    width: 400px;
+    border: none;
+    border-radius: 14px !important;
+    /* box-shadow: 5px 5px 50px 20px black !important; */
+}
+
+/* .card_hello:hover {
+    box-shadow: 0px 0px 20px 5px #36c282;
+} */
+/* new card hero */
+.intro_para{
+    text-align: justify;
+    color: var(--darkblue);
+    font-weight: 500;
+    font-size: 16px;
+}
+.intro{
+text-align: center;
+}
+.bg_gradient{
+    background: linear-gradient(var(--hero_card_top) 0%, var(--hero_card_top) 40%, var(--hero_card_bottom)40%);
+    /* border-bottom-left-radius: 14px !important;
+    border-bottom-right-radius: 14px !important;
+    border-top-left-radius: 14px !important;
+    border-top-right-radius: 14px !important; */
+}
+/* new card hero */
+.area1 {
+    background-color: var(--hero_card_top);
+    border-top-left-radius: 14px !important;
+    border-top-right-radius: 14px !important;
+    padding-top: 83px !important;
+}
+
+ .image {
+    /* text-align: auto; */
+} 
+
+.image img {
+    /* box-shadow: 0px 0px 20px 10px #e9ecef; */
+    border: solid 1px rgb(148, 172, 245);
+
+}
+
+.area2 {
+    background-color: var(--hero_card_bottom);
+    border-bottom-left-radius: 14px !important;
+    border-bottom-right-radius: 14px !important;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 650;
+}
+
+.information {
+    color: var(--darkblue);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* .card_rotate{
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+.card_rotate:hover{
+    transform: rotateY(360deg);
+} */
+
+.about_me {
+    background-color: var();
+    color: red;
+}
+
+.ddyyzz {
+    text-align: center !important;
+    display: block !important;
+    /* background-color: var(--bio_skill_thought_bgcolor); */
+    box-shadow: none !important;
+    text-decoration: none !important;
+}
+
+
+/* .fffll{
+    display: block;
+    text-align: center;
+} */
+
+.ddyyzz_descr {
+    color: var(--bluelight);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.pro_pointer {
+    cursor: pointer;
+}
+
+
+
+/* footer starts */
+
+body {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a {
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+.content {
+    height: 70vh;
+}
+
+.footer-20192 {
+    position: relative;
+    padding: 7rem 0;
+    margin-top: 10rem;
+}
+
+.footer-20192 .container {
+    position: relative;
+}
+
+.footer-20192 h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.footer-20192 .links li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    display: block;
+}
+
+.footer-20192 .links li a {
+    color: #666873;
+}
+
+.footer-20192 .links li a:hover {
+    color: #fff;
+}
+
+.footer-20192 .social li {
+    display: inline-block;
+    position: relative;
+}
+
+.footer-20192 .social li a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.footer-20192 .social li a>span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.footer-20192 .footer-logo {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.footer-20192 .copyright {
+    color: #666873;
+}
+
+.footer-20192 .cta {
+    -webkit-box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+    box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+    padding: 20px;
+    background-color: #8186d5;
+    top: -150px;
+    position: relative;
+}
+
+.footer-20192 .cta h2,
+.footer-20192 .cta h3 {
+    line-height: 1.5;
+}
+
+.footer-20192 .cta h3 {
+    font-size: 20px;
+}
+
+
+/* footer ends */

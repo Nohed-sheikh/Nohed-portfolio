@@ -85,10 +85,10 @@
 /*     border-radius: 20px; */
 }
 .burger{
-    background-color: var(--footer_icon_color) !important;
+
 }
 .burger_button{
-    color:var(--footer_icon_color)!important;
+       background-color:var(--footer_header_font_color);
 }
 
 

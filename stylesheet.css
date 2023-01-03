@@ -82,7 +82,13 @@
 /* color scheme class ends */
 
 .project_bg_rounded{
-    border-radius: 20px;
+/*     border-radius: 20px; */
+}
+.burger{
+    background-color: var(--footer_icon_color) !important;
+}
+.burger_button{
+    color:var(--footer_icon_color)!important;
 }
 
 
